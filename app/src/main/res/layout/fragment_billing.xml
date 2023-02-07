@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/clinetid_Text_View"
+        android:layout_width="96dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:text="@string/clinetid_Text_View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/clinetname_Text_View"
+        android:layout_width="106dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/clinetname_Text_View"
+        app:layout_constraintEnd_toEndOf="@+id/clinetid_Text_View"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="@+id/clinetid_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/clinetid_Text_View" />
+
+    <TextView
+        android:id="@+id/productname_Text_View"
+        android:layout_width="115dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/productname_Text_View"
+        app:layout_constraintEnd_toEndOf="@+id/clinetname_Text_View"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/clinetname_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/clinetname_Text_View" />
+
+    <TextView
+        android:id="@+id/productprice_Text_View"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/productprice_Text_View"
+        app:layout_constraintEnd_toEndOf="@+id/productname_Text_View"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/productname_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/productname_Text_View" />
+
+    <TextView
+        android:id="@+id/productquantity_Text_View"
+        android:layout_width="114dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/productquantity_Text_View"
+        app:layout_constraintEnd_toEndOf="@+id/productprice_Text_View"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/productprice_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/productprice_Text_View" />
+
+    <EditText
+        android:id="@+id/childclientid_Edit_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/childclientid_Edit_View"
+        android:hint="@string/childclientid_Edit_View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toEndOf="@+id/clinetid_Text_View"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:autofillHints=""
+        />
+
+    <EditText
+        android:id="@+id/childclientname_Edit_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/childclientname_Edit_View"
+        android:hint="@string/childclientname_Edit_View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/clinetname_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/childclientid_Edit_View"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/childproductname_Edit_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/childproductname_Edit_View"
+        android:hint="@string/childproductname_Edit_View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/productname_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/childclientname_Edit_View"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/childproductprice_Edit_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/childproductprice_Edit_View"
+        android:hint="@string/childproductprice_Edit_View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toEndOf="@+id/productprice_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/childproductname_Edit_View"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/childproductquantity_Edit_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/childproductquantity_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/childproductquantity_Edit_View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toEndOf="@+id/productquantity_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/childproductprice_Edit_View" />
+
+    <Button
+        android:id="@+id/billingupdate_Button"
+        android:layout_width="137dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/billingupdate_Button"
+        app:layout_constraintEnd_toEndOf="@+id/productquantity_Text_View"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/productquantity_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/productquantity_Text_View" />
+
+    <Button
+        android:id="@+id/billingudelete_Button"
+        android:layout_width="148dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/billingudelete_Button"
+        app:layout_constraintEnd_toEndOf="@+id/childproductquantity_Edit_View"
+        app:layout_constraintStart_toStartOf="@+id/childproductquantity_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/childproductquantity_Edit_View" />
+
+    <Button
+        android:id="@+id/billingsearch_Button"
+        android:layout_width="147dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/billingsearch_Button"
+        app:layout_constraintEnd_toEndOf="@+id/billingupdate_Button"
+        app:layout_constraintStart_toStartOf="@+id/billingupdate_Button"
+        app:layout_constraintTop_toBottomOf="@+id/billingupdate_Button" />
+
+    <Button
+        android:id="@+id/billingview_Button"
+        android:layout_width="137dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/billingview_Button"
+        app:layout_constraintEnd_toEndOf="@+id/billingudelete_Button"
+        app:layout_constraintStart_toStartOf="@+id/billingudelete_Button"
+        app:layout_constraintTop_toBottomOf="@+id/billingudelete_Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

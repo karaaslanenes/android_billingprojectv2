@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/clientid_Edit_View"
+        android:layout_width="295dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/clientid_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/clientid_Edit_View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/clientname_Edit_View"
+        android:layout_width="281dp"
+        android:layout_height="49dp"
+        android:layout_gravity="top|center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/clientname_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/clientname_Edit_View"
+
+        app:layout_constraintEnd_toEndOf="@+id/clientid_Edit_View"
+        app:layout_constraintStart_toStartOf="@+id/clientid_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/clientid_Edit_View" />
+
+    <EditText
+        android:id="@+id/productname_Edit_View"
+        android:layout_width="282dp"
+        android:layout_height="59dp"
+        android:layout_gravity="top|center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/productname_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/productname_Edit_View"
+        app:layout_constraintEnd_toEndOf="@+id/clientname_Edit_View"
+        app:layout_constraintStart_toStartOf="@+id/clientname_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/clientname_Edit_View" />
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="367dp"
+        android:layout_height="340dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/productquantity_Edit_View"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="@+id/productquantity_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/productquantity_Edit_View"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/totalbilling_Text_View"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/totalbilling_Text_View"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="457dp" />
+
+        <TextView
+            android:id="@+id/clientinfo_Text_View"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="@string/clientinfo_Text_View"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+        <Button
+            android:id="@+id/recordbilling_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recordbilling_Button"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="625dp" />
+
+        <Button
+            android:id="@+id/inputbilling_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inputbilling_Button"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+        <Button
+            android:id="@+id/billingdetails_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/billingdetails_Button"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+        <LinearLayout
+            android:id="@+id/linerLayout2"
+            android:layout_width="375dp"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/previousbilling_Button"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:text="@string/previousbilling_Button"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="678dp" />
+
+            <Button
+                android:id="@+id/nextbilling_Button"
+                android:layout_width="170dp"
+                android:layout_height="49dp"
+                android:text="@string/nextbilling_Button"
+                tools:layout_editor_absoluteX="198dp"
+                tools:layout_editor_absoluteY="678dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/productprice_Edit_View"
+        android:layout_width="287dp"
+        android:layout_height="63dp"
+        android:layout_gravity="top|center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/productprice_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/productprice_Edit_View"
+        app:layout_constraintEnd_toEndOf="@+id/productname_Edit_View"
+        app:layout_constraintStart_toStartOf="@+id/productname_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/productname_Edit_View" />
+
+    <EditText
+        android:id="@+id/productquantity_Edit_View"
+        android:layout_width="311dp"
+        android:layout_height="55dp"
+        android:layout_gravity="top|center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/productquantity_Edit_View"
+        android:inputType="textPersonName"
+        android:text="@string/productquantity_Edit_View"
+        app:layout_constraintEnd_toEndOf="@+id/productprice_Edit_View"
+        app:layout_constraintStart_toStartOf="@+id/productprice_Edit_View"
+        app:layout_constraintTop_toBottomOf="@+id/productprice_Edit_View" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

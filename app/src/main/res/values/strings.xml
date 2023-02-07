@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BillingProjectV2</string>
+    <string name="clientid_Edit_View">Please Enter Client ID</string>
+    <string name="clientname_Edit_View">Please Enter Client Name</string>
+    <string name="productname_Edit_View">Please Enter Prd Name</string>
+    <string name="productprice_Edit_View">Please Enter Prd Price</string>
+    <string name="productquantity_Edit_View">Please Enter Prd Qty</string>
+    <string name="totalbilling_Text_View"></string>
+    <string name="clientinfo_Text_View"></string>
+    <string name="inputbilling_Button">TOTAL INPUT BILLING</string>
+    <string name="recordbilling_Button">TOTAL RECORD BILLING</string>
+    <string name="previousbilling_Button">PREV BILLING</string>
+    <string name="nextbilling_Button">NEXT BILLING</string>
+    <string name="billingdetails_Button">BILLING DETAILS</string>
+    <string name="clinetid_Text_View">Clinet Id</string>
+    <string name="clinetname_Text_View">Clinet Name</string>
+    <string name="productname_Text_View">Product Name</string>
+    <string name="productprice_Text_View">Product Price</string>
+    <string name="productquantity_Text_View">Product Qty</string>
+    <string name="childclientid_Edit_View">id</string>
+    <string name="childclientname_Edit_View">name</string>
+    <string name="childproductname_Edit_View">pname</string>
+    <string name="childproductprice_Edit_View">price</string>
+    <string name="childproductquantity_Edit_View">qty</string>
+    <string name="billingupdate_Button">BILLING UPDATE</string>
+    <string name="billingudelete_Button">BILLING DELETE</string>
+    <string name="billingsearch_Button">BILLING SEARCH</string>
+    <string name="billingview_Button">BILLING VIEW</string>
+</resources>
